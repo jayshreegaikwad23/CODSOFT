@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"contact="width=device-width,initial-scale=1.0">
+        <title> Portfolio Website </title>
+        <link rel="stylesheet"href="newstyle.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==
+         " crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="https://fontawesome.com/v5/icons/inbox?f=classic&s=solid">
+
+         <style>
+
+/* Center-align the form */
+form {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+/* Style form elements */
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the form heading */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+         </style>
+         </head>
+         <body>
+
+            <section class="hero">
+                
+                <div class="main-widht">
+                    <header>
+                        <div class="logo">
+                            <img src="logo.jpeg"class="logo">
+                        </div>
+                        <nav>
+                            <div class="hamb">
+                                <span></span>
+                                <span></span>
+                                <span></span>                                                                       
+                            </div>
+                            <ul class="nav-list">
+                                <li><a href="newproject.html">Home</a></li>
+                                <li><a href="about.html">About</a><li>
+                                <li><a href="Services.html">Skills</a></li>
+                                <li><a href="#">Project</a></li>
+                                <li class="btn"><a href="contact.html">ContactMe</a></li>
+
+                            </ul>
+                        </nav>
+                    </header>
+
+                    <h1>Contact Us</h1>
+    
+    <form action="process_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+                
+                        
+                     
+               
+                
+                
+                
+                </body>
+                </html>
